@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="22x22">
+  <title>SALT</title>
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- main js -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/owl.carousel.js"></script>
+</head>
+
+<body class="home">
+  <!--================ Start Header Area =================-->
+  <header class="header_area">
+    <div class="bdr">
+      <div class="container">
+        <div class="Topcontainer">
+          <div class="columnLeft pc">
+            <a class="navbar-brand logo_h width-300" href="index.html">
+              <img src="images/logo.png" alt="" class="logo--w"></a>
+          </div>
+          <div class="columnCenter pc">
+            <div class="search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="What Are You Looking For ?">
+            </div>
+          </div>
+          <div class="columnRight">
+            <div class="top_nav">
+              <ul>
+                <li><a href="#"> <img src="images/cart-icon.png" alt=""> </a></li>
+                <li><a href="#"> <img src="images/wishlist-icon.png" alt=""> </a></li>
+                <li><a href="#">Login </a></li>
+                <li><a href="#">Track Order </a></li>
+                <li><a href="#">Contact Us </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h width-300 mobile" href="index.html">
+            <img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-center  ">
+              <li class="nav-item"><a class="nav-link" href="listing.html">Men</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Classic Tees </a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Oversized Tees </a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Hoodies </a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Travel Hoodie</a></li>
+              <!-- <li class="nav-item ml-auto "><button class="btn btn-primary mar-50" type="button">Contact
+                  Us</button></li>
+            </ul> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--================ End Header Area =================-->
+
+
+  <!--================ Start login Area =================-->
+  <section class="login mt-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 p-0">
+          <div class="left">
+            <img src="images/login-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-4 pl-6">
+          <div class="mar-120">
+            <div class="title">OTP Verification</div>
+            <div class="pre">Join us now to be a part of salt & thread </div>
+            <div class="edit">+91 8447679426 <a href="">Edit</a> </div>
+            <div class="otp">
+              <input type="text" maxlength="1" oninput="moveToNext(this, 'otp2')"
+                onkeydown="moveToPrevious(event, 'otp1')" id="otp1" />
+              <input type="text" maxlength="1" oninput="moveToNext(this, 'otp3')"
+                onkeydown="moveToPrevious(event, 'otp1')" id="otp2" />
+              <input type="text" maxlength="1" oninput="moveToNext(this, 'otp4')"
+                onkeydown="moveToPrevious(event, 'otp2')" id="otp3" />
+              <input type="text" maxlength="1" onkeydown="moveToPrevious(event, 'otp3')" id="otp4" />
+            </div>
+            <div class="pre">Resend in <span>25</span> sec</div>
+            <button class="btn-mdYeelow width-100 mar-30 " type="button">
+              CONTINUE
+            </button>
+
+
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--================ end login Area =================-->
+
+
+
+  <script src="js/theme.js"></script>
+
+</body>
+
+</html>

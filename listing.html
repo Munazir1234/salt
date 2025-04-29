@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="22x22">
+  <title>SALT</title>
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- main js -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/owl.carousel.js"></script>
+</head>
+
+<body class="home">
+  <!--================ Start Header Area =================-->
+  <header class="header_area">
+    <div class="bdr">
+      <div class="container">
+        <div class="Topcontainer">
+          <div class="columnLeft pc">
+            <a class="navbar-brand logo_h width-300" href="index.html">
+              <img src="images/logo.png" alt="" class="logo--w"></a>
+          </div>
+          <div class="columnCenter pc">
+            <div class="search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="What Are You Looking For ?">
+            </div>
+          </div>
+          <div class="columnRight">
+            <div class="top_nav">
+              <ul>
+                <li><a href="#"> <img src="images/cart-icon.png" alt=""> </a></li>
+                <li><a href="#"> <img src="images/wishlist-icon.png" alt=""> </a></li>
+                <li><a href="#">Login </a></li>
+                <li><a href="#">Track Order </a></li>
+                <li><a href="#">Contact Us </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h width-300 mobile" href="index.html">
+            <img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-center  ">
+              <li class="nav-item"><a class="nav-link" href="listing.html">Men</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Classic Tees </a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Oversized Tees </a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Hoodies </a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Travel Hoodie</a></li>
+              <!-- <li class="nav-item ml-auto "><button class="btn btn-primary mar-50" type="button">Contact
+                  Us</button></li>
+            </ul> -->
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--================ End Header Area =================-->
+  <!--================ Start breadcrumb Area =================-->
+  <section class="breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Classic Tees</li>
+      </ol>
+    </div>
+  </section>
+  <!--================ End breadcrumb Area =================-->
+
+  <!--================ Start Listing Area =================-->
+  <section class="listing ">
+    <div class="container">
+      <div class="row">
+
+
+        <button class="toggle-filter-btn mobile"><i class="fa-solid fa-bars-staggered"></i> Filter</button>
+        <div class="col-lg-3">
+          <div class="filter-wrapper">
+            <div class="filter-slide">
+              <button class="close-filter-btn mobile">&times;</button>
+              <div class="filter">
+                <h3>Filters</h3>
+              </div>
+              <div class="filters">
+                <!-- Filter 1 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle1">
+                    <span>Gender</span>
+                    <i class="arrow-icon rotate" id="arrowIcon1"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent1">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>Men</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>Women</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> Unisex</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Filter 2 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle2">
+                    <span>Sizes</span>
+
+                    <i class="arrow-icon rotate" id="arrowIcon2"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent2">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>XS</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>S</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>M</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>L</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> XL</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+
+                      <div class="read-more-section">
+                        <div class="more">
+                          <label class="checkbox">
+                            <span> XXL</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="checkbox">
+                            <span> XXXL</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                        </div>
+
+                        <button class="read-more-btn">More</button>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Filter 3 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle3">
+                    <span>Color</span>
+                    <i class="arrow-icon rotate" id="arrowIcon3"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent3">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span class="color black-Bg"></span>
+                        <span>Black</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span class="color blue-Bg"></span>
+                        <span>Blue</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span class="color purple-Bg"></span>
+                        <span>Purple
+                        </span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span class="color white-Bg"></span>
+                        <span> White</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span class="color green-Bg"></span>
+                        <span>Green</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+
+                      <div class="read-more-section">
+                        <div class="more2">
+                          <label class="checkbox">
+                            <span class="color red-Bg"></span>
+                            <span> Red</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+                        </div>
+
+                        <button class="read-more-btn2">More</button>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Filter 4 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle4">
+                    <span>Design</span>
+                    <i class="arrow-icon rotate" id="arrowIcon4"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent4">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>Graphic Print</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>Aop</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>Solid
+                        </span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> Typography</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>Printed</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+
+                      <div class="read-more-section3">
+                        <div class="more3">
+                          <label class="checkbox">
+                            <span> Graphic Print</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+                        </div>
+
+                        <button class="read-more-btn3">More</button>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Filter 5 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle5">
+                    <span>Sleeve</span>
+                    <i class="arrow-icon rotate" id="arrowIcon5"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent5">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>Half Sleeve</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> Full Sleeve</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Filter 6 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle6">
+                    <span>Ratings</span>
+                    <i class="arrow-icon rotate" id="arrowIcon6"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent6">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>4.5 And Above</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> 4 And Above </span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> 3 And Above</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> 2.5 And Above</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Filter 7 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle7">
+                    <span>Price</span>
+                    <i class="arrow-icon rotate" id="arrowIcon7"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent7">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>Under ₹500</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> ₹500 - ₹1,000</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>₹1,000 - ₹2,000</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>₹2,000 - ₹3,000</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> Over ₹3,000</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Filter 8 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle8">
+                    <span>Offers</span>
+                    <i class="arrow-icon rotate" id="arrowIcon8"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent8">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>Buy 2 for 999</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> Buy 3 for 999</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Filter 9 -->
+                <div class="filter-section">
+                  <div class="filter-header" id="filterToggle9">
+                    <span>Price</span>
+                    <i class="arrow-icon rotate" id="arrowIcon9"><i class="fa-solid fa-chevron-down"></i></i>
+                  </div>
+                  <div class="filter-content" id="filterContent9">
+                    <div class="pt-2">
+                      <label class="checkbox">
+                        <span>10% or more</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>20% or more</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>30% or more</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span> 40% or more</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="checkbox">
+                        <span>50% or more</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="filter-backdrop"></div>
+        </div>
+
+
+        <div class="col-lg-9">
+          <div class="title ">
+            <div class="row">
+              <div class="col-lg-6">
+                <h2>Classic Tees</h2>
+              </div>
+              <div class="col-lg-6 pc">
+                <select name="sources" id="sources" class="custom-select sources" placeholder="SORT BY : Featured">
+                  <option value="profile">A to Z</option>
+                  <option value="profile">A to Z</option>
+                  <option value="profile">A to Z</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <img src="images/listing-banner.png">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 ">
+              <div class="ProductItem item" onclick="location.href='product.html'">
+                <figure class="height">
+                  <img src="images/p-img1.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item" onclick="location.href='product.html'">
+                <figure class="height">
+                  <img src="images/p-img2.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item" onclick="location.href='product.html'">
+                <figure class="height">
+                  <img src="images/p-img3.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item">
+                <figure class="height">
+                  <img src="images/p-img4.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item">
+                <figure class="height">
+                  <img src="images/p-img5.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item">
+                <figure class="height">
+                  <img src="images/p-img6.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item">
+                <figure class="height">
+                  <img src="images/p-img7.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item">
+                <figure class="height">
+                  <img src="images/p-img8.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 padd-left">
+              <div class="ProductItem item">
+                <figure class="height">
+                  <img src="images/p-img4.png">
+                </figure>
+
+                <div class="price">₹499 <span class="discont">₹1199</span><span class="off">58% off</span></div>
+                <div class="title">White Half Sleeve Plus Size T-Shirt</div>
+                <div class="wishlist"><img src="images/wishlist-icon--2.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+  <!--================ end Popular Area =================-->
+
+
+
+
+
+
+  <!--================ Start footer Area =================-->
+
+  <section class="footer mar-120">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3">
+          <div class="footerLogo">
+            <img src="images/logo.png">
+          </div>
+          <div class="title">
+            <p>A new way to make the payments easy.
+              reliable and 100% secure. clarity, therefore, Army tation.</p>
+            <p><img src="images/phone-icon.png"> <span>+806 (000) 88 99</span> </p>
+            <p><img src="images/message-icon.png"> <span>contact@info.com</span></p>
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_nav p-left">
+            <h2>Usefull Links</h2>
+            <ul>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#"> How it Works</a></li>
+              <li><a href="#"> Create</a></li>
+              <li><a href="#"> Explore</a></li>
+              <li><a href="#"> Terms & Services </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="footer_nav">
+            <h2>Community</h2>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#"> Suggestions</a></li>
+              <li><a href="#"> Blog</a></li>
+              <li><a href="#">Newsletters</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="footer_nav right-icon">
+            <h2>Get In Touch</h2>
+            <div class="row">
+              <div class="col-4">
+                <img src="images/barcode.png">
+              </div>
+              <div class="col-8 pd-0">
+                <img src="images/appstore.png">
+                <img src="images/googleplay.png">
+              </div>
+              <div class="col-sm-12">
+                <img src="images/paypal.png">
+                <img src="images/mastro.png">
+                <img src="images/mastercard.png">
+                <img src="images/paypal.png">
+                <img src="images/pay.png">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid fbdr">
+      <div class="footer-bdr"></div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-lg-6">
+            Copyright <span>@2024</span> SALT & THREAD All Rights Reserved
+          </div>
+          <div class="col-lg-6">
+            <div class="social-link ">
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <a id="button"></a>
+
+
+  <!--================ End footer Area =================-->
+  <script src="js/theme.js"></script>
+</body>
+
+</html>

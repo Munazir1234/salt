@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="22x22">
+  <title>SALT</title>
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- main js -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/owl.carousel.js"></script>
+</head>
+
+<body class="home">
+  <!--================ Start Header Area =================-->
+  <header class="header_area">
+    <div class="bdr">
+      <div class="container">
+        <div class="Topcontainer">
+          <div class="columnLeft pc">
+            <a class="navbar-brand logo_h width-300" href="index.html">
+              <img src="images/logo.png" alt="" class="logo--w"></a>
+          </div>
+          <div class="columnCenter pc">
+            <div class="search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="What Are You Looking For ?">
+            </div>
+          </div>
+          <div class="columnRight">
+            <div class="top_nav">
+              <ul>
+                <li><a href="#"> <img src="images/cart-icon.png" alt=""> </a></li>
+                <li><a href="#"> <img src="images/wishlist-icon.png" alt=""> </a></li>
+                <li><a href="#">Login </a></li>
+                <li><a href="#">Track Order </a></li>
+                <li><a href="#">Contact Us </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h width-300 mobile" href="index.html">
+            <img src="images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-center  ">
+              <li class="nav-item"><a class="nav-link" href="listing.html">Men</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Classic Tees </a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Oversized Tees </a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Hoodies </a></li>
+              <li class="nav-item"><a class="nav-link" href="#"> Travel Hoodie</a></li>
+              <!-- <li class="nav-item ml-auto "><button class="btn btn-primary mar-50" type="button">Contact
+                  Us</button></li>
+            </ul> -->
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--================ End Header Area =================-->
+
+
+  <!--================ Start cart Area =================-->
+  <section class="cart mar-80">
+    <div class="container">
+      <div class="breadcrumb ">
+        <li class="breadcrumb-item">
+          <a href="#">MY BAG</a>
+        </li>
+        <li class="breadcrumb-item ">
+          ADDRESS
+        </li>
+        <li class="breadcrumb-item ">
+          PAYMENT
+        </li>
+      </div>
+
+      <div class="row mar-70">
+        <div class="col-lg-8">
+
+          <div class="cart-addressbox">
+            <div>
+              <h3 data-toggle="modal" data-target="#deleveryAddress"> Deliver To</h3>
+              <h4>Volans Infomatics</h4>
+              <p>H-44 sector 63 noida, gautam buddha nagar, uttar pradesh, 201301</p>
+            </div>
+
+
+            <div><button class="btn-mdYeelow width-250 shadow-yellow" type="button" data-toggle="modal"
+                data-target="#changeAddress">
+                CHANGE ADDRESS
+              </button></div>
+          </div>
+
+
+          <div class="cart-box">
+            <div class="cart-item">
+              <img src="images/cart-img.png" class="cart-image">
+              <div class="cart-content">
+                <div class="cart-text">
+                  <h3>Alfaq Darkwave Oversized T-Shirt</h3>
+                  <button>Size: XL</button>
+                  <button>Qty: 1</button>
+                  <div class="price">₹699 <span class="discont">₹1249</span><span class="off">-69% OFF</span></div>
+                </div>
+
+
+                <div class="cart-text ">
+                  <p><img src="images/return-iconsmall.png">
+                    <font>14 days</font> return available
+                  </p>
+                  <p><img src="images/delevry-icon.png"> Estimated Delivery by <span>24 Nov 2024</span></p>
+                </div>
+              </div>
+            </div>
+            <button class="buttonclose" type="button" data-toggle="modal" data-target="#removecart">
+              <img src="images/close-icon.png">
+            </button>
+          </div>
+
+          <div class="cart-box">
+            <div class="cart-item">
+              <img src="images/cart-img.png">
+              <div class="cart-content">
+                <div class="cart-text">
+                  <h3>Alfaq Darkwave Oversized T-Shirt</h3>
+                  <button>Size: XL</button>
+                  <button>Qty: 1</button>
+                  <div class="price">₹699 <span class="discont">₹1249</span><span class="off">-69% OFF</span></div>
+                </div>
+
+                <div class="cart-text ">
+                  <p><img src="images/return-iconsmall.png">
+                    <font>14 days</font> return available
+                  </p>
+                  <p><img src="images/delevry-icon.png"> Estimated Delivery by <span>24 Nov 2024</span></p>
+                </div>
+              </div>
+            </div>
+            <button class="buttonclose" type="button" data-toggle="modal" data-target="#removecart">
+              <img src="images/close-icon.png">
+            </button>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4">
+          <div class="cart-offerbox">
+            <div class="box">
+              <div>Coupons & Offers</div>
+              <button class="btn-view shadow-yellow" type="button" data-toggle="modal" data-target="#applycoupon">
+                VIEW
+              </button>
+              <img src="images/offer-icon.png" alt="" class="box-img">
+              <p class="box-text">
+                Apply Coupon / Gift Card<br>
+                Crazy deals and other amazing offers
+              </p>
+            </div>
+            <div class="pricebox">
+              <h2>Price Details (2 Items)</h2>
+              <p>Total MRP<span>₹12,786</span></p>
+              <p>Discount on MRP<span class="color"> -7427</span></p>
+              <p>Coupon Discount<span class="color"> -1000</span></p>
+              <p>Platform Fee<span>₹20</span></p>
+              <p> Shipping Fee<span>₹10</span></p>
+              <hr>
+              <h3>Total Amount<span>₹5,379</span></h3>
+              <button class="btn-mdYeelow width-100 shadow-yellow" type="button">
+                PROCEED
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--================ end cart Area =================-->
+
+  <div class="container-fluid fbdr">
+    <div class="footer-bdr"></div>
+  </div>
+
+  <!--================ Start footer Area =================-->
+
+  <section class="footer mar-120">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3">
+          <div class="footerLogo">
+            <img src="images/logo.png">
+          </div>
+          <div class="title">
+            <p>A new way to make the payments easy.
+              reliable and 100% secure. clarity, therefore, Army tation.</p>
+            <p><img src="images/phone-icon.png"> <span>+806 (000) 88 99</span> </p>
+            <p><img src="images/message-icon.png"> <span>contact@info.com</span></p>
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="footer_nav p-left">
+            <h2>Usefull Links</h2>
+            <ul>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#"> How it Works</a></li>
+              <li><a href="#"> Create</a></li>
+              <li><a href="#"> Explore</a></li>
+              <li><a href="#"> Terms & Services </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="footer_nav">
+            <h2>Community</h2>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#"> Suggestions</a></li>
+              <li><a href="#"> Blog</a></li>
+              <li><a href="#">Newsletters</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="footer_nav right-icon">
+            <h2>Get In Touch</h2>
+            <div class="row">
+              <div class="col-4">
+                <img src="images/barcode.png">
+              </div>
+              <div class="col-8 pd-0">
+                <img src="images/appstore.png">
+                <img src="images/googleplay.png">
+              </div>
+              <div class="col-sm-12">
+                <img src="images/paypal.png">
+                <img src="images/mastro.png">
+                <img src="images/mastercard.png">
+                <img src="images/paypal.png">
+                <img src="images/pay.png">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid fbdr">
+      <div class="footer-bdr"></div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-lg-6">
+            Copyright <span>@2024</span> SALT & THREAD All Rights Reserved
+          </div>
+          <div class="col-lg-6">
+            <div class="social-link ">
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <a id="button"></a>
+
+
+  <!--================ End footer Area =================-->
+  <script src="js/theme.js"></script>
+</body>
+
+</html>
+<!-- changeAddress -->
+
+<div class="modal fade" id="deleveryAddress1111" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add New Address</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/close-icon.png"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-heading mt-2">CONTACT DETAILS</div>
+        <div class="row">
+          <div class="col-lg-12">
+            <input type="text" class="input_form" placeholder="Name*" />
+          </div>
+          <div class="col-lg-12">
+            <input type="text" class="input_form" placeholder="Mobile No*" />
+          </div>
+        </div>
+        <div class="modal-heading mar-40">ADDRESS</div>
+        <div class="row">
+          <div class="col-lg-12">
+            <input type="text" class="input_form" placeholder="Pin Code*" />
+          </div>
+          <div class="col-lg-12">
+            <input type="text" class="input_form" placeholder="Address (House No, Building, Street, Area)*" />
+          </div>
+          <div class="col-lg-12">
+            <input type="text" class="input_form" placeholder="Locality / Town*" />
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="input_form" placeholder="City / District*" />
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="input_form" placeholder="City / District*" />
+          </div>
+          <div class="col-lg-12">
+            <label class="checkbox">
+              <span>Make this my default address</span>
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn-mdYeelow width-100 shadow-yellow" type="button">
+          CHANGE ADDRESS
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- deleveryAddress -->
+
+<div class="modal fade" id="changeAddress" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Select Delivery Address</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/close-icon.png"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+
+        <div class="popup">
+          <div class="addressbox">
+            <h4>Volans Infomatics</h4>
+            <p>H-44 sector 63 noida, gautam buddha nagar, uttar pradesh, 201301</p>
+            <h3>volans@gmail.com</h3>
+          </div>
+          <div class="addressbox active">
+            <h4>Volans Infomatics</h4>
+            <p>H-44 sector 63 noida, gautam buddha nagar, uttar pradesh, 201301</p>
+            <h3>volans@gmail.com</h3>
+          </div>
+          <div class="addressbox">
+            <h4>Volans Infomatics</h4>
+            <p>H-44 sector 63 noida, gautam buddha nagar, uttar pradesh, 201301</p>
+            <h3>volans@gmail.com</h3>
+          </div>
+          <div class="addressbox">
+            <h4>Volans Infomatics</h4>
+            <p>H-44 sector 63 noida, gautam buddha nagar, uttar pradesh, 201301</p>
+            <h3>volans@gmail.com</h3>
+          </div>
+
+        </div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn-mdYeelow width-100 shadow-yellow" type="button">
+          ADD NEW ADDRESS
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- applycoupon -->
+
+<div class="modal fade" id="applycoupon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">APPLY COUPON</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/close-icon.png"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="popup">
+          <div class="search-box">
+            <input type="text" class="search-input" placeholder="Enter coupon code">
+            <button class="search-button">CHECK</button>
+          </div>
+
+
+          <div class="box">
+            <img src="images/offer-icon.png" alt="" class="box-img">
+            <p class="box-text"><span class="upper">Get it for as low as</span> <span class="price">₹366</span>
+              <span class="off">₹499</span> <br>
+              Buy3@ 1099 Add 3 products in your cart to avail the offer
+            </p>
+            <div class="applied"><a href="#">Offer T&amp;C</a></div>
+          </div>
+
+          <div class="box active">
+            <img src="images/offer-icon.png" alt="" class="box-img">
+            <p class="box-text"><span class="upper">Get it for as low as</span> <span class="price">₹200</span>
+              <span class="off">₹499</span> <br>
+              Buy3@ 1099 Add 3 products in your cart to avail the offer
+            </p>
+            <div class="applied"><a href="#">Offer T&amp;C</a></div>
+          </div>
+
+
+          <div class="box">
+            <img src="images/offer-icon.png" alt="" class="box-img">
+            <p class="box-text"><span class="upper">Get it for as low as</span> <span class="price">₹366</span>
+              <span class="off">₹499</span> <br>
+              Buy3@ 1099 Add 3 products in your cart to avail the offer
+            </p>
+            <div class="applied"><a href="#">Offer T&amp;C</a></div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn-mdYeelow width-100 shadow-yellow" type="button">
+          APPLY
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- removecart -->
+<div class="modal fade" id="removecart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <div class="popup">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><img src="images/close-icon.png"></span>
+          </button>
+
+          <div class="cart-box">
+            <div class="cart-item">
+              <img src="images/remove-image.png">
+              <div class="cart-content">
+                <div class="cart-text">
+                  <h3>Alfaq Darkwave Oversized T-Shirt</h3>
+                  <p>Are you sure you want to move this item for bag?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="remove ">
+        <button class="primery" type="button">
+          Remove
+        </button>
+        <button class="info" type="button">
+          MOVE TO WISHLIST
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
